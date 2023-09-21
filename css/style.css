@@ -57,10 +57,10 @@ body {
 	float: left;
 }
 .home li img {
+	margin-top: 25px;
 	width: 30px;
 	height: 30px;
 	text-align: center;
-	line-height: 80px;
 	vertical-align: middle;
 }
 .home li:first-of-type {
@@ -201,9 +201,9 @@ footer {
 	z-index: 0;
 }
 footer h1 {
-	width: 300px;
+	width: 20vw;
 	float: left;
-	margin: 40px 100px 0 30px;
+	margin: 40px 100px 0 20px;
 }
 .nav {
 	overflow: hidden;
@@ -211,6 +211,7 @@ footer h1 {
 	float: right;
 }
 .nav a {
+	font-size: 1vw;
 	float: left;
 	width: 120px;
 	text-decoration: none;
@@ -261,6 +262,7 @@ footer ul li {
 	list-style-type: none;
 }
 footer ul li a {
+	font-size: 1vw;
 	text-decoration: none;
 	color: #fff;
 }
@@ -294,10 +296,10 @@ footer ul li a:hover {
     list-style: none;
     width: 95%;
     max-width: 900px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 .accordion-area li {
-    margin: 10px 0 300px;
+    margin: 10px 0 1000px;
 }
 .accordion-area .news-block {
 	border: 1px solid #ccc;
@@ -380,17 +382,20 @@ time {
 	font-size: 110%;
 }
 .foods-item-detail span {
-	
-
 	margin-right: 10px; 
 }
 .cart-button {
 	display: flex;
 	justify-content: space-around;
+	font-size: 14px;
+	margin-top: 5px;
 }
 .cart-button select {
 	width: 40px;
 	height: 40px;
+}
+button {
+	font-size: 10px;
 }
 .cart-button button {
 	height: 40px;
@@ -623,6 +628,8 @@ input[type="tel"] {
 	flex-grow: 1;	
 }
 .cart-item {
+	padding-bottom: 15px;
+	margin: 15px 0;
 	display: flex;
 	border-bottom: dotted 1px #ccc;
 }
